@@ -5,8 +5,9 @@ The python code (fintech-index.py) is used as a fulfillment web services (using 
 can collect information using Dialogflow and write to Google Sheet document.
 
 Dialogflow
-- Needs a intent with action='request_callback' and sending a request with parameters phone-number and person. 
-- You have to se the default system entities
+- Needs a intent with action='request_callback'
+- Intent must collect parameters  phone-number and person 
+- For the parameters, please use system entities phon-entity-number and person
 
 Python modules
 - Install using the pip install XXXX , where XXX refers to the modules listed in the python program (fintech-index.py)
