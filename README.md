@@ -6,20 +6,20 @@
 ### Dialogflow
 
 - Needs an intent with action='request_callback'
-- Intent must collect parameters phone-number and person.
-- For the parameters, please use system entities phon-entity-number and person
+- Intent must collect parameters phone-number and person. Exact spelling is needed.
+- For the parameters, please use system entities phone-number and person
 
 ### Python modules
 
 - Install using the bashcommand $pip install XXXX , where XXX refers to the modules listed in the python program (fintech-index.py).
-- Sorry, I did not prepare the requirements text file.
+- Sorry, I did not prepare the requirements  file that is needed to install dependencies.
 
 ### Google Sheet
-
-- Refer to https://gspread.readthedocs.io/en/latest/ for the guideon how to setup your Google Sheet and get the service account keys.
 - You need the service account key to update the python program (fintech-index.py)
+- Refer to https://gspread.readthedocs.io/en/latest/ for the guideon how to setup your Google Sheet and get the service account keys.
 
-### Deploy fintch-index.py as a Flask application (webhook)
+
+### Deploy fintech-index.py as a Flask application (webhook). 
 
 - Refer to https://www.pragnakalp.com/dialogflow-fulfillment-webhook-tutorial/ for a simple example to run a flask application.
 - Then, repeat but use the python program fintech-index.py
